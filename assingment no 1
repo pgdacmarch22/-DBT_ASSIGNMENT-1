@@ -1,0 +1,45 @@
+Name:shelke Akshaykumar Raghunath
+Roll no:220350320123
+PG-DAC
+Sub:DBT
+Assignment no:1
+Q1:
+Select * from salgrade;
+Q2:
+Select * from emp;
+Q3:
+Select * from department;
+Q4:
+Select * from emp;
+Where salary between 1000 and 2000;
+Q5:
+Select dep_no,dep_name from department order by;
+Q6:
+Select distinct job from emp;
+Q7:
+Select * from emp
+Where dep_no in (10,20) 
+Order by emp_name;
+Q8:
+Select emp_name,job from emp
+Where job='clerks' and dep_no=20;
+Q9:
+Select emp_name from emp
+Where emp_name like '%th%' or emp_name like '%ll%';
+Q10:
+select * from emp
+where job='manager';
+Q11:
+Select emp_name,salary,(salary*12+ifnull(comm,0)) "total salary" from emp;
+Q12:
+
+Q13:
+select emp_name from emp
+ where hiredate like '1982%';
+Q16:
+Select emp_name,round(salary*1.15,5) "new salary" from emp;
+
+
+
+
+
